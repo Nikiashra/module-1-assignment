@@ -1,21 +1,20 @@
-  void main()
+print("***** Arithmatic solution *****");
 
-    {
-      int a =55;
-      int b =66;
+  int a =55;
+  int b =66;
 
-      int sum = a+b;
-      print (sum);
+  int sum = a+b;
+  print (sum);
 
-      int sub = a-b;
-      print(sub);
+  int sub = a-b;
+  print(sub);
 
-      int mul =a*b;
-      print(mul);
+  int mul =a*b;
+  print(mul);
 
-      double div =a/b;
-      print(div);
+  double div =a/b;
+  print(div);
 
-      int mod =a%b;
-      print(mod);
-     }
+  int mod =a%b;
+  print(mod);
+  print("\n===========================");
