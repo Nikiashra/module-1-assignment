@@ -1,0 +1,64 @@
+A-1{Inheritance is a method through which one class inherits the child from its parent class.
+Inheritance is a feature in which one new class is derived from the existing ones.
+The new class derived is termed a derived class, and the current class is termed a Parent or base class.
+its also called parent and child class.
+
+A-2{Dart doesn't support multiple inheritances. In other words, a class cannot inherit from two or more classes.
+   B-It helps to design a program in a better way. It makes code simpler, cleaner and saves time and money on maintenance.
+
+A-3{Iinheritance dictates that a child class (subclass) inherits all the attributes and methods from a parent class (superclass).
+Inheritance is a relation between two classes. A child class inherits all the features of its parent class. 
+Methods from the parent can be overridden in the child and new logic can be added.
+Encapsulation is the packing of data and functions into a single component.
+Encapsulation dictates that one class must not have access to the (private) data of another class.
+
+A-4{Inheritance facilitates code reusability and promotes a hierarchical structure, 
+while abstraction simplifies complex systems and enforces a high-level design.
+
+A-5{Polymorphism allows the programmer to write multiple definitions of a function.
+At the same time, inheritance enables the user to reuse the already written code.
+
+A-6{it is not possible to override a static method.
+
+A-7{static polymorphism is not achieved through traditional method overloading.
+
+A-8{A class can implement multiple interfaces.
+   In Dart, multi-level inheritance occurs when various classes inherit in a chain (i.e., one class extends a parent class,
+   and another class extends the class that extended the parent class) A subclass is inherited by another subclass or forms an inheritance chain.
+
+A-28{It doesn't support multiple inheritance, in which a class can extend multiple classes. However, a class can implement multiple interfaces.
+
+A-29{If a type implements two interfaces, and each interface define a method that has identical signature, 
+then in effect there is only one method, and they are not distinguishable.
+
+A-30{A-Yes, you can pass that because subclass and superclass are related to each other by Inheritance which provides IS-A property.
+    {B-Yes, there's no inheritance of static members. 
+
+A-31{A-The reference holding the child class object reference will not be able to access the members (functions or variables) of the child class
+     B-Constructors are not members, so they are not inherited by subclasses.
+
+A-32{You can prevent a class from being subclassed by using the final keyword in the class's declaration.
+
+A-33{Dart does not support multiple inheritance.
+
+A-34{Dart allows single inheritance, which means a class can extend from a single parent. But a single parent can have multiple children,
+    and each child can have its own children, building up a hierarchy many classes deep.
+
+A-35{ Create a public method in library class and pass that private method in it.
+    You can have the access of that private method as defined public method.
+
+A-36{ Overridden methods can have the exact same signatures, no restrictions. Static Methods can be overloaded.
+
+A-37{Use “extends” when you want to create a new class that inherits properties and methods from an existing class and can add new properties and methods or override existing ones.
+     Use “implements” when you want to define a contract that a class must follow, such as implementing a set of method signatures.
+
+A-38{apart from final modifier, you can also use static and private modifier .
+
+A-39{*The overriding method (the child class method) must be declared with the same configuration as the overridden method (the superclass method). ...
+     *The overriding method must be defined in the subclass, not in the same class.
+A-40{Method Overloading is the concept of defining two or more methods with the same name but different signatures.
+     Method Overriding is the concept of defining two or more identical methods, having the same name and signatures.
+
+
+
+
